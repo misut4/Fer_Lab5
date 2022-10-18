@@ -1,0 +1,14 @@
+@import "./scss/index.scss";
+.container {
+    width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+body {
+    color: $text-color;
+    min-height: 100vh;
+    // @include flex-center();
+}
+a {
+    color: $text-color;
+}
