@@ -33,6 +33,7 @@
     &__name {
         margin: 0;
         color: $primary-color;
+        font-size: 1.5rem;
     }
     @media screen and (max-width: 767.98px) {
         &__item {
@@ -46,6 +47,7 @@
         }
         &__name {
             text-align: center;
+            margin-top: 1rem;
         }
     }
 }
