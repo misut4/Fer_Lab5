@@ -8,6 +8,7 @@ import {
     faUser,
     faBagShopping,
     faAddressBook,
+    faBars,
 } from "@fortawesome/free-solid-svg-icons";
 export default function Sidebar() {
     return (
@@ -27,10 +28,6 @@ export default function Sidebar() {
                 <NavLink to="/portfolio" className="sidebar__links-item">
                     <FontAwesomeIcon icon={faBagShopping}></FontAwesomeIcon>
                     <span>Portfolio</span>
-                </NavLink>
-                <NavLink to="/contact" className="sidebar__links-item">
-                    <FontAwesomeIcon icon={faAddressBook}></FontAwesomeIcon>
-                    <span>Contact</span>
                 </NavLink>
             </div>
         </div>

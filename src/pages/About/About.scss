@@ -1,0 +1,92 @@
+@import "../../scss/index.scss";
+.about {
+    background: $background-color;
+    max-height: 100vh;
+    overflow-y: scroll;
+
+    &__heading {
+        text-align: center;
+    }
+    &__name {
+        font-size: 2rem;
+    }
+    h2 {
+        margin: 5px 0;
+    }
+    p {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    &__section {
+        padding: 1rem 0;
+        &-title {
+            display: block;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #3e3e3e;
+            text-transform: uppercase;
+        }
+    }
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        @media screen and (max-width: 767.98px) {
+            flex-direction: column;
+            .divider {
+                display: none;
+            }
+            .flex {
+                flex-direction: column;
+            }
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        &-icon {
+            width: 15px;
+            height: 15px;
+            background-color: $text-color;
+            color: white;
+        }
+    }
+}
+.project {
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width: 767.98px) {
+            flex-direction: column;
+        }
+    }
+    &__list {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    &__name {
+        text-decoration: underline;
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+    }
+    &__link {
+        text-decoration: underline;
+    }
+    &__info {
+        font-size: 20px;
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    @media screen and (max-width: 767.98px) {
+        p {
+            font-size: 16px;
+        }
+    }
+}

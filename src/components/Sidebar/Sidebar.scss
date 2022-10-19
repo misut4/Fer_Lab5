@@ -3,9 +3,17 @@
     width: 300px;
     max-width: 300px;
     height: 100vh;
-    border-right: 1px solid $text-color;
+    border-right: 1px solid #3e3e3e;
     background: #272527;
     padding: 2rem 0;
+    &__switch {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        display: none;
+        padding: 0 1rem;
+    }
     &__logo {
         display: flex;
         justify-content: center;
@@ -38,6 +46,22 @@
             }
             &.active {
                 color: $primary-color;
+            }
+        }
+    }
+    @media screen and (max-width: 767.98px) {
+        width: 100px;
+        &__switch {
+            display: flex;
+        }
+        // &__logo {
+        //     display: none;
+        // }
+        &__links {
+            &-item {
+                span {
+                    display: none;
+                }
             }
         }
     }
