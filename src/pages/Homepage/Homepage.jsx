@@ -9,38 +9,25 @@ export default function Homepage() {
     return (
         <>
             <Helmet>
-                <title>Duy Vo Portfolio</title>
+                <title>misut4 Portfolio</title>
             </Helmet>
             <div className="homepage section-box">
                 <div className="homepage__container">
                     <div className="homepage__content">
                         <h1 className="homepage__heading">
-                            Hello, my name is
-                            <span className="homepage__name"> Duy Vo</span>
+                            Konichixinchao, I'm 
+                            <span className="homepage__name"> Nguyen Si Hoang / misut4</span>
                         </h1>
                         <h2 className="homepage__job">
-                            I'm a{" "}
-                            <TypeAnimation
-                                sequence={[
-                                    "Front-end Web Developer", // Types 'One'
-                                    1000, // Waits 1s
-                                    ,
-                                    "",
-                                ]}
-                                wrapper="span"
-                                speed={20}
-                                cursor={true}
-                                repeat={Infinity}
-                                className="homepage__job-title"
-                            />
+                            I'm a Back-end/mobile Developer
+                                
+                            
                             {/* <span className="homepage__job-title">
                                 Front-end Web Developer
                             </span> */}
                         </h2>
                         <p>
-                            I'm a Frontend Web Developer with 6+ month
-                            experience. I'm in the way to be a professional web
-                            developer.
+                            I am a back-end/mobile flutter developer by day and the Dark Knight by night.
                         </p>
                         <div>
                             <Link to="/about" className="btn btn-primary">

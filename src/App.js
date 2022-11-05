@@ -8,7 +8,7 @@ function App() {
     return (
         <div className="App">
             <Helmet>
-                <title>DuyVo's Portfolio</title>
+                <title>misuta's Portfolio</title>
             </Helmet>
             <BrowserRouter>
                 <Routes>

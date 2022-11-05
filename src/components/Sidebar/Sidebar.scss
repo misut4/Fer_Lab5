@@ -1,10 +1,10 @@
 @import "../../scss/variables";
 .sidebar {
-    width: 300px;
+    width: 150px;
     max-width: 300px;
     height: 100vh;
-    border-right: 1px solid #3e3e3e;
-    background: #272527;
+    border-right: 3px solid #3e3e3e;
+    background: #dacada;
     padding: 2rem 0;
     &__switch {
         width: 100%;
@@ -19,8 +19,8 @@
         justify-content: center;
         align-items: center;
         img {
-            max-width: 50%;
-            border-radius: 999px;
+            max-width: 100%;
+            border-radius: 15%;
         }
     }
     &__links {
@@ -36,7 +36,7 @@
             padding: 1rem 0;
             font-size: 1.5rem;
             text-align: center;
-            border-bottom: 1px solid #3e3e3e;
+            border-bottom: 3px solid #3e3e3e;
             transition: all 0.3s ease;
             span {
                 margin-left: 1rem;
